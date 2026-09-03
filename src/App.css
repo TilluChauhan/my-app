@@ -1,0 +1,27 @@
+    /* Full width clickable button styling */
+    .accordion-btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none !important;
+      color: #333;
+      font-weight: 600;
+      padding: 0.75rem 1.25rem;
+      border: none;
+      background: none;
+    }
+
+    .accordion-btn:hover {
+      color: #007bff;
+    }
+
+    /* Arrow rotation animation */
+    .accordion-btn .fas {
+      transition: transform 0.3s ease;
+      transform: rotate(180deg); /* Open state: arrow points up */
+    }
+
+    .accordion-btn.collapsed .fas {
+      transform: rotate(0deg);   /* Closed state: arrow points down */
+    }
