@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TilluChauhan/my-app/static/css/main.48df1e46.css",
+    "main.js": "/TilluChauhan/my-app/static/js/main.354732af.js",
+    "static/js/453.35732811.chunk.js": "/TilluChauhan/my-app/static/js/453.35732811.chunk.js",
+    "index.html": "/TilluChauhan/my-app/index.html",
+    "main.48df1e46.css.map": "/TilluChauhan/my-app/static/css/main.48df1e46.css.map",
+    "main.354732af.js.map": "/TilluChauhan/my-app/static/js/main.354732af.js.map",
+    "453.35732811.chunk.js.map": "/TilluChauhan/my-app/static/js/453.35732811.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48df1e46.css",
+    "static/js/main.354732af.js"
+  ]
+}
