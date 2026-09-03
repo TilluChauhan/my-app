@@ -60,7 +60,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       {/* Navigation */}
       <Navbar  title='Tushar' aboutText='About Us' contacText='Contact Us' mode={mode} toggleMode={ToggleMode}></Navbar>
      {/* <Navbar2 Title='Tushar' AboutText='About US'></Navbar2>
