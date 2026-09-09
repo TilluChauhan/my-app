@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import About from './components/About';
@@ -31,14 +31,16 @@ function App() {
   };
 
   return (
-    <HashRouter>
+    <BrowserRouter>
+    
       <Navbar title='Tushar' aboutText='About Us' contactText='Contact Us' mode={mode} toggleMode={ToggleMode} />
       <Alert alert={alert} />
       <Routes>
-        <Route path="/" element={<TextForm2 showAlert={showAlert} mode={mode} />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </HashRouter>
+        <Route path="/" element={<TextForm2 heading='Word Counter Chararcter Counter Remove Extra Spaces' showAlert={showAlert} mode={mode} />} />
+<Route path="/about" element={<About mode={mode} heading="About Us" />} />  
+
+ </Routes>
+    </BrowserRouter>
   );
 }
 
